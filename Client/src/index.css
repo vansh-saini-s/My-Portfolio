@@ -1,0 +1,11 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Other styles */
+body {
+  font-family: 'Montserrat', sans-serif; /* Set the default font for the body */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
