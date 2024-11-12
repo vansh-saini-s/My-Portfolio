@@ -54,13 +54,7 @@ const LatestWorks = () => {
 
   const works = [
     {
-      image: "/Portfolio/IIIT_Una.png",
-      title: "IIIT Una",
-      websiteLink: "https://iiitu.ac.in/",
-      githubLink: ""
-    },
-    {
-      image: "/Portfolio/Portfolio.png",
+      image: "/Img.png",
       title: "Portfolio Website",
       websiteLink: "https://vansh-dun.vercel.app/",
       githubLink: ""
@@ -69,14 +63,8 @@ const LatestWorks = () => {
       image: "/Portfolio/Code.png",
       title: "AI Summarizer",
       websiteLink: "",
-      githubLink: "https://github.com/Rachit-31/AI_Summarizer"
+      githubLink: ""
     },
-    {
-      image: "/Portfolio/Gym.png",
-      title: "Evogym",
-      websiteLink: "",
-      githubLink: "https://github.com/Rachit-31/FitJourney"
-    }
   ];
 
   const handleShowMore = () => {

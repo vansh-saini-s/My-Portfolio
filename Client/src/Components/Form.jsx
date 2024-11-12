@@ -27,8 +27,8 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        'service_6hecu6p',
-        'template_0rbavtj',
+        '#',
+        '#',
         {
           firstName: formData.firstName,
           lastName: formData.lastName,
@@ -71,7 +71,7 @@ const ContactForm = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
-          Get in Touch with Rachit Jain
+          Get in Touch with Vansh Saini
         </motion.h1>
         <motion.p
           className="text-gray-600 max-w-xl mx-auto"
@@ -133,7 +133,7 @@ const ContactForm = () => {
             name="email"
             value={formData.email}
             onChange={handleInputChange}
-            placeholder="rachitjainjaipur@gmail.com"
+            placeholder="vansh461828@gmail.com"
             className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-black focus:border-transparent outline-none transition"
             required
           />

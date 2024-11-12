@@ -62,13 +62,13 @@ const Homepage = () => {
           <div className="h-10 w-[2px] bg-gray-300 mr-4"></div>
 
           <motion.div className="flex flex-col space-y-2" variants={iconVariant}>
-            <motion.a href="https://github.com/Rachit-31" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
+            <motion.a href="https://github.com/Vansh1" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
               <FaGithub className="mr-2" />
             </motion.a>
-            <motion.a href="https://www.linkedin.com/in/rachit-jain-697914256/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
+            <motion.a href="https://www.linkedin.com/in/Vansh1/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
               <FaLinkedin className="mr-2" />
             </motion.a>
-            <motion.a href="https://www.instagram.com/thisisrachitjain/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
+            <motion.a href="https://www.instagram.com/Vansh1/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 hover:text-black" whileHover={{ scale: 1.1 }}>
               <FaInstagram className="mr-2" />
             </motion.a>
           </motion.div>
@@ -81,9 +81,9 @@ const Homepage = () => {
         variants={imageVariant}
       >
         <motion.img
-          src="/Rachit2.png"
-          alt="Rachit Jain"
-          className="object-cover w-full h-full"
+          src="/Vansh.png"
+          alt="Vansh"
+          className="object-cover w-auto h-[48rem]"
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.2 }}

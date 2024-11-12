@@ -29,9 +29,9 @@ const AboutMe = () => {
             <div>
               <h1 className="text-4xl font-medium mb-6">About Me</h1>
               <p className="text-gray-600 leading-relaxed">
-                My name is Rachit Jain. I am currently pursuing a Bachelor's degree in{" "}
+                My name is Vansh Saini I am currently pursuing a Bachelor's degree in{" "}
                 <span className="font-semibold text-primary">
-                  Electronics and Communication Engineering
+                  Computer science and Engineering
                 </span>{" "}
                 at <span className="font-semibold text-primary">IIIT Una</span>.
                 Alongside my studies, I specialize in{" "}
@@ -107,8 +107,8 @@ const AboutMe = () => {
               {/* Profile Image */}
               <motion.div className="relative" variants={fadeIn}>
                 <img
-                  src="/Rachit2.png"
-                  alt="Rachit Jain"
+                  src="/Vansh.png"
+                  alt="Vansh"
                   className="w-full h-auto rounded-xl"
                 />
               </motion.div>
@@ -125,7 +125,7 @@ const AboutMe = () => {
                 <p className="text-gray-600">
                   Currently pursuing a degree in{" "}
                   <span className="font-semibold">
-                    Electronics and Communication Engineering
+                  Computer science and Engineering
                   </span>{" "}
                   at IIIT Una.
                 </p>
